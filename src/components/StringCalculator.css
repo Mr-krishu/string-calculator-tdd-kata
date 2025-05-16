@@ -1,0 +1,17 @@
+.calculator-container {
+    padding: 2rem;
+  }
+  
+  .calculator-input {
+    width: 300px;
+    padding: 0.5rem;
+  }
+  
+  .calculator-button {
+    margin-left: 1rem;
+  }
+  
+  .calculator-error {
+    color: red;
+  }
+  
