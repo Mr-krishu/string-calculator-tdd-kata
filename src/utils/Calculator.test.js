@@ -1,11 +1,11 @@
 import { add } from './Calculator';
 
 describe('String Calculator', () => {
-  test('returns 0 for an empty string', () => {
+  test('returns 0 for an empty string, i.e if textarea is blank', () => {
     expect(add("")).toBe(0);
   });
 
-  test('returns the number for a single number string', () => {
+  test('returns the number for a single number string in textarea', () => {
     expect(add("1")).toBe(1);
   });
 
