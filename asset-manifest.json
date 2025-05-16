@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/string-calculator-tdd-kata/static/css/main.19ae3010.css",
+    "main.js": "/string-calculator-tdd-kata/static/js/main.84df8fed.js",
+    "static/js/453.1019d2fd.chunk.js": "/string-calculator-tdd-kata/static/js/453.1019d2fd.chunk.js",
+    "index.html": "/string-calculator-tdd-kata/index.html",
+    "main.19ae3010.css.map": "/string-calculator-tdd-kata/static/css/main.19ae3010.css.map",
+    "main.84df8fed.js.map": "/string-calculator-tdd-kata/static/js/main.84df8fed.js.map",
+    "453.1019d2fd.chunk.js.map": "/string-calculator-tdd-kata/static/js/453.1019d2fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19ae3010.css",
+    "static/js/main.84df8fed.js"
+  ]
+}
