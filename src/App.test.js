@@ -1,8 +1,10 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('calculates sum from user input', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const input = screen.getByPlaceholderText(/enter numbers/i);
+  fireEvent.change(input, { target: { value: '1,2' } });
+  fireEvent.click(screen.getByText(/Calculate/i));
+  expect(screen.getByText(/sum: 3/i)).toBeInTheDocument();
 });

@@ -21,7 +21,7 @@ function StringCalculator() {
   return (
     <div className="calculator-container">
       <h2>String Calculator</h2>
-      <input
+      <textarea
         type="text"
         placeholder="Enter numbers"
         value={input}
